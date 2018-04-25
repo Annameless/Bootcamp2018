@@ -6,11 +6,32 @@ namespace ClassesAndObjects
     public class GradeBook
     {
         private List<float> grades;
-        public string Name { get; set; }
+        private string _name;
+        public string Name
+        {
+            get => _name;
+            set
+            {
+                if (!string.IsNullOrEmpty(value)){
+                    if(_name != value){
+                        NameChanged(this, new NameChangedEventArgs
+                        {
+                            ExistingName = _name,
+                            NewName = value
+                        });
+                    }
+
+                    _name = value;
+                }
+            }
+        }
+
+        public event NameChangedDelegate NameChanged;
 
         public GradeBook()
         {
             grades = new List<float>();
+            _name = "Empty";
         }
 
         public void AddGrade(float grade){
