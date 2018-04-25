@@ -15,4 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ClassesAndObjects\ClassesAndObjects.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Types\" />
+  </ItemGroup>
 </Project>

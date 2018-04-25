@@ -6,6 +6,7 @@ namespace ClassesAndObjects
     public class GradeBook
     {
         private List<float> grades;
+        public string Name { get; set; }
 
         public GradeBook()
         {
