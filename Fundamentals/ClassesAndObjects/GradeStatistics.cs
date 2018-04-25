@@ -1,5 +1,4 @@
-﻿using System;
-namespace ClassesAndObjects
+﻿namespace ClassesAndObjects
 {
     public class GradeStatistics
     {
