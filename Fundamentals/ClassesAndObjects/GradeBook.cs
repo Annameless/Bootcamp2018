@@ -4,33 +4,9 @@ using System.IO;
 
 namespace ClassesAndObjects
 {
-    public class GradeBook
+    public class GradeBook : GradeTracker
     {
-        private List<float> _grades;
-        private string _name;
-
-        public string Name
-        {
-            get => _name;
-            set
-            {
-                if (string.IsNullOrEmpty(value)) {
-                    throw new ArgumentException("Name cannot be null or empty");
-                }
-
-                if(_name != value){
-                    NameChanged(this, new NameChangedEventArgs
-                    {
-                        ExistingName = _name,
-                        NewName = value
-                    });
-                }
-
-                _name = value;
-            }
-        }
-
-        public event NameChangedDelegate NameChanged;
+        protected List<float> _grades;
 
         public GradeBook()
         {
@@ -38,18 +14,18 @@ namespace ClassesAndObjects
             _name = string.Empty;
         }
 
-        public void AddGrade(float grade){
+        public override void AddGrade(float grade){
             _grades.Add(grade);
         }
 
-        public void WriteGrades(TextWriter writer){
+        public override void WriteGrades(TextWriter textWriter){
             for (int i = 0; i < _grades.Count; i++)
             {
-                writer.WriteLine(_grades[i]);
+                textWriter.WriteLine(_grades[i]);
             }
         }
 
-        public GradeStatistics ComputeStatistics(){
+        public override GradeStatistics ComputeStatistics(){
             float sum = 0f;
             var lowest = _grades.Count > 0? _grades[0] : 0f;
             var highest = _grades.Count > 0 ? _grades[0] : 0f;

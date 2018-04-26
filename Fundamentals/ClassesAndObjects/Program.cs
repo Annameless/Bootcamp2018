@@ -7,7 +7,7 @@ namespace ClassesAndObjects
     {
         static void Main(string[] args)
         {
-            GradeBook book = new GradeBook();
+            IGradeTracker book = new ThrowAwayGradeBook();
             SubscribeToEvent(book);
 
             SetBookName(book);
@@ -16,13 +16,13 @@ namespace ClassesAndObjects
             PrintGrades(book);
         }
 
-        private static void SubscribeToEvent(GradeBook book)
+        private static void SubscribeToEvent(IGradeTracker book)
         {
             book.NameChanged += new NameChangedDelegate(OnNameChanged);
             book.NameChanged += new NameChangedDelegate(OnNameChanged2);
         }
 
-        private static void PrintGrades(GradeBook book)
+        private static void PrintGrades(IGradeTracker book)
         {
             var stats = book.ComputeStatistics();
             WriteResult("Average", stats.Average);
@@ -32,7 +32,7 @@ namespace ClassesAndObjects
             WriteResult("Description", stats.Description);
         }
 
-        private static void WriteGrades(GradeBook book)
+        private static void WriteGrades(IGradeTracker book)
         {
             using (var output = File.CreateText("grades.txt"))
             {
@@ -42,14 +42,14 @@ namespace ClassesAndObjects
             }
         }
 
-        private static void AddGrades(GradeBook book)
+        private static void AddGrades(IGradeTracker book)
         {
             book.AddGrade(91);
             book.AddGrade(81.5f);
             book.AddGrade(75f);
         }
 
-        private static void SetBookName(GradeBook book)
+        private static void SetBookName(IGradeTracker book)
         {
             try
             {
