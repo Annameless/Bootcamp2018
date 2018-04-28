@@ -2,7 +2,7 @@
 
 namespace CustomEqualityImplementation
 {
-    public class FoodItem : IEquatable<FoodItem>
+    public class FoodItem //: IEquatable<FoodItem>
     {
         private readonly string _name;
         private readonly FoodGroup _group;
@@ -21,25 +21,31 @@ namespace CustomEqualityImplementation
             return _name;
         }
 
-        public bool Equals(FoodItem other)
-        {
-            return _name == other.Name && _group == other.Group;
-        }
+        //public bool Equals(FoodItem other)
+        //{
+        //    return _name == other.Name && _group == other.Group;
+        //}
 
 		public override bool Equals(object obj)
 		{
-            if(obj is FoodItem)
-                return Equals((FoodItem)obj);
-            return false;
+            if (obj == null)
+                return false;
+            if(ReferenceEquals(obj, this))
+                return true;
+            if (obj.GetType() != GetType())
+                return false;
+
+            var other = obj as FoodItem;
+            return _name == other.Name && _group == other.Group; //Equals((FoodItem)obj);
 		}
 
         public static bool operator ==(FoodItem l, FoodItem r){
-            return l.Equals(r);
+            return object.Equals(l, r);//l.Equals(r);
         }
 
         public static bool operator !=(FoodItem l, FoodItem r)
         {
-            return !l.Equals(r);
+            return !object.Equals(l, r);//!l.Equals(r);
         }
 
 		public override int GetHashCode()
