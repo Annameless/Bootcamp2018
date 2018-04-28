@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ClassesAndObjects
+namespace Fundamentals
 {
     public class ThrowAwayGradeBook : GradeBook
     {

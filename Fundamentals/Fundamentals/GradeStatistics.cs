@@ -1,4 +1,4 @@
-﻿namespace ClassesAndObjects
+﻿namespace Fundamentals
 {
     public class GradeStatistics
     {

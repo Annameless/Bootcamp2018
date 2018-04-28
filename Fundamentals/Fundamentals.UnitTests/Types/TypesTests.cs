@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace ClassesAndObjects.UnitTests.Types
+namespace Fundamentals.UnitTests.Types
 {
     public class TypesTests
     {

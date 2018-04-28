@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace ClassesAndObjects.UnitTests
+namespace Fundamentals.UnitTests
 {
     public class GradeBookTests
     {

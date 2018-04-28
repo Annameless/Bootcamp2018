@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace ClassesAndObjects
+namespace Fundamentals
 {
     public class GradeBook : GradeTracker
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassesAndObjects
+namespace Fundamentals
 {
     public class NameChangedEventArgs: EventArgs
     {

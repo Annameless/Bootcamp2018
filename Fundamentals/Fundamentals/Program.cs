@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ClassesAndObjects
+namespace Fundamentals
 {
     class Program
     {
