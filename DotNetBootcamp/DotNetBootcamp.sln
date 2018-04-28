@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEqualityImplementatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonsInDotNet", "ComparisonsInDotNet\ComparisonsInDotNet.csproj", "{637D1689-AE6E-464C-A374-E8CB46AE3FD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityAndComparisonsForStrings", "EqualityAndComparisonsForStrings\EqualityAndComparisonsForStrings.csproj", "{3367B6AB-E37C-4278-9138-B62F71D814A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +51,9 @@ Global
 		{637D1689-AE6E-464C-A374-E8CB46AE3FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637D1689-AE6E-464C-A374-E8CB46AE3FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637D1689-AE6E-464C-A374-E8CB46AE3FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3367B6AB-E37C-4278-9138-B62F71D814A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3367B6AB-E37C-4278-9138-B62F71D814A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3367B6AB-E37C-4278-9138-B62F71D814A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3367B6AB-E37C-4278-9138-B62F71D814A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
