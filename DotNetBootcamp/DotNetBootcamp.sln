@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality", "Equality\Equali
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityOperator", "EqualityOperator\EqualityOperator.csproj", "{46F9B114-5F97-43E5-B06F-83EBED9A3CEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEqualityImplementation", "CustomEqualityImplementation\CustomEqualityImplementation.csproj", "{9A1BCDBA-B811-4696-B701-BA564C6E498A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,5 +39,9 @@ Global
 		{46F9B114-5F97-43E5-B06F-83EBED9A3CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F9B114-5F97-43E5-B06F-83EBED9A3CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F9B114-5F97-43E5-B06F-83EBED9A3CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1BCDBA-B811-4696-B701-BA564C6E498A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1BCDBA-B811-4696-B701-BA564C6E498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1BCDBA-B811-4696-B701-BA564C6E498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1BCDBA-B811-4696-B701-BA564C6E498A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
