@@ -71,7 +71,7 @@ namespace EqualityAndComparison
             foreach (var item in foodStructs1)
                 Console.WriteLine(item);
 
-            Console.WriteLine("\nString Comparer");
+            Console.WriteLine("\nString Comparer provided by Microosoft");
             var names = new HashSet<string>(StringComparer.CurrentCultureIgnoreCase){
                 "apple",
                 "pear",
