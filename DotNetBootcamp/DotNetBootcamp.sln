@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListStackQueue", "LinkedListStackQueue\LinkedListStackQueue.csproj", "{0FE4F759-1113-444E-8C87-908EAB8B6DFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{41B52940-1C8D-426C-984C-23B7BF3EBBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", "{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,5 +95,13 @@ Global
 		{0FE4F759-1113-444E-8C87-908EAB8B6DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE4F759-1113-444E-8C87-908EAB8B6DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE4F759-1113-444E-8C87-908EAB8B6DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B52940-1C8D-426C-984C-23B7BF3EBBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B52940-1C8D-426C-984C-23B7BF3EBBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B52940-1C8D-426C-984C-23B7BF3EBBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B52940-1C8D-426C-984C-23B7BF3EBBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
