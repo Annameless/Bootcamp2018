@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionarie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", "{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerators", "Enumerators\Enumerators.csproj", "{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,5 +105,9 @@ Global
 		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51DC5FA2-FC88-457E-8698-6E5E777F5AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
