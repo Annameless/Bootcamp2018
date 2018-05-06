@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerators", "Enumerators\Enumerators.csproj", "{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesConcreteAndAbstractClasses", "InterfacesConcreteAndAbstractClasses\InterfacesConcreteAndAbstractClasses.csproj", "{05E22F29-92FA-4625-931C-FCF2FCDD80DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,5 +111,9 @@ Global
 		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9A5C7E3-CC89-47AE-BD75-28D74C099A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E22F29-92FA-4625-931C-FCF2FCDD80DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E22F29-92FA-4625-931C-FCF2FCDD80DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E22F29-92FA-4625-931C-FCF2FCDD80DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E22F29-92FA-4625-931C-FCF2FCDD80DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
