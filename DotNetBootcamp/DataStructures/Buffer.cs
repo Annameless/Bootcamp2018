@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace DataStructures
 {
@@ -8,6 +9,15 @@ namespace DataStructures
 		protected Queue<T> _queue = new Queue<T>();
 
 		public virtual bool IsEmpty => _queue.Count == 0;
+
+		public IEnumerable<TOutput> AsEnumerableOf<TOutput>()
+		{
+			var converter = TypeDescriptor.GetConverter(typeof(T));
+			foreach(var item in _queue){
+				var result = converter.ConvertTo(item, typeof(TOutput));
+				yield return (TOutput)result;
+			}         
+		}
 
 		public IEnumerator<T> GetEnumerator()
 		{
